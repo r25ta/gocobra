@@ -4,6 +4,7 @@ import (
 	"fmt"
 )
 
+// WHEN USING ARRAY YOU MUST DECLARE THE MAXIMUM SIZE OF ARRAY
 func main() {
 	arrayint := [5]int64{1, 2, 3, 4, 5}
 
@@ -16,4 +17,5 @@ func main() {
 	arrayfloat := [5]float64{2.1, 3.4, 5.6, 2.6, 10.7}
 
 	fmt.Println("Array Float: ", arrayfloat)
+
 }
