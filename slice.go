@@ -11,6 +11,11 @@ func main() {
 
 	sliceString := []string{"Ronaldo", "Olivia", "Diego", "Camila"}
 	fmt.Println("Slice String: ", sliceString)
+	//USING APPEND TO ADD SLICE ELEMENTS
+	sliceString = append(sliceString, "Artur")
+	sliceString = append(sliceString, "Telma")
+
+	fmt.Println("Slice Sting with append two elements: ", sliceString)
 
 	slicefloat := []float64{11.2, 3340.9, 12345.987, 67849.9877}
 	fmt.Println("Slice Float: ", slicefloat)
