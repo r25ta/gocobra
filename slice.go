@@ -14,5 +14,5 @@ func main() {
 
 	slicefloat := []float64{11.2, 3340.9, 12345.987, 67849.9877}
 	fmt.Println("Slice Float: ", slicefloat)
-	fmt.Printf("Slice Float Format (#.##): %.3f ", slicefloat)
+	fmt.Printf("Slice Float Format (#.###): %.3f ", slicefloat)
 }
